@@ -1,0 +1,11 @@
+Changes
+Makefile.PL
+MANIFEST
+OAT.xs
+ppport.h
+README
+t/Digest-OAT.t
+fallback/const-c.inc
+fallback/const-xs.inc
+lib/Digest/OAT.pm
+META.yml                                 Module meta-data (added by MakeMaker)
