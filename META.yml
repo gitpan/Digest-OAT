@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Digest-OAT
-version:             0.03
+version:             0.04
 abstract:            Bob Jenkin's One-at-a-Time hash function
 license:             ~
 author:              

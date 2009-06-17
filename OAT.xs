@@ -1,3 +1,4 @@
+#include <stdint.h>
 #include "EXTERN.h"
 #include "perl.h"
 #include "XSUB.h"
@@ -15,7 +16,7 @@ unsigned oat ( SV* key ) {
     /* End Perl Stuff */
 
     /* unsigned char *p = str; */
-    unsigned h = 0;
+    uint32_t h = 0;
     int i;
 
     for ( i = 0; i < len; i++ ) {
@@ -35,6 +36,6 @@ MODULE = Digest::OAT		PACKAGE = Digest::OAT
 
 INCLUDE: const-xs.inc
 
-unsigned
+U32
 oat (key)
     SV *    key
